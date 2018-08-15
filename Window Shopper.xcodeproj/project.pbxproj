@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F9B1FA312124B8A4000F847D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1FA302124B8A4000F847D /* AppDelegate.swift */; };
-		F9B1FA332124B8A4000F847D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1FA322124B8A4000F847D /* ViewController.swift */; };
+		F9B1FA332124B8A4000F847D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1FA322124B8A4000F847D /* MainViewController.swift */; };
 		F9B1FA362124B8A4000F847D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B1FA342124B8A4000F847D /* Main.storyboard */; };
 		F9B1FA382124B8A7000F847D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B1FA372124B8A7000F847D /* Assets.xcassets */; };
 		F9B1FA3B2124B8A7000F847D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B1FA392124B8A7000F847D /* LaunchScreen.storyboard */; };
+		F9B1FA452124BB4D000F847D /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1FA442124BB4D000F847D /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9B1FA2D2124B8A4000F847D /* Window Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B1FA302124B8A4000F847D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9B1FA322124B8A4000F847D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9B1FA322124B8A4000F847D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F9B1FA352124B8A4000F847D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9B1FA372124B8A7000F847D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B1FA3A2124B8A7000F847D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B1FA3C2124B8A7000F847D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B1FA442124BB4D000F847D /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		F9B1FA2F2124B8A4000F847D /* Window Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				F9B1FA432124BB17000F847D /* Views */,
+				F9B1FA422124B9BF000F847D /* Controller */,
 				F9B1FA302124B8A4000F847D /* AppDelegate.swift */,
-				F9B1FA322124B8A4000F847D /* ViewController.swift */,
 				F9B1FA342124B8A4000F847D /* Main.storyboard */,
 				F9B1FA372124B8A7000F847D /* Assets.xcassets */,
 				F9B1FA392124B8A7000F847D /* LaunchScreen.storyboard */,
 				F9B1FA3C2124B8A7000F847D /* Info.plist */,
 			);
 			path = "Window Shopper";
+			sourceTree = "<group>";
+		};
+		F9B1FA422124B9BF000F847D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9B1FA322124B8A4000F847D /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9B1FA432124BB17000F847D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9B1FA442124BB4D000F847D /* CurrencyTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B1FA332124B8A4000F847D /* ViewController.swift in Sources */,
+				F9B1FA452124BB4D000F847D /* CurrencyTextField.swift in Sources */,
+				F9B1FA332124B8A4000F847D /* MainViewController.swift in Sources */,
 				F9B1FA312124B8A4000F847D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
